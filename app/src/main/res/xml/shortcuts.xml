@@ -1,0 +1,12 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="share_note"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/share_note">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.github.unikorm.justwrite"
+            android:targetClass="io.github.unikorm.justwrite.ShareActivity" />
+    </shortcut>
+</shortcuts>
