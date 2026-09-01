@@ -2,6 +2,6 @@
 <resources>
 
     <style name="Theme.Justwrite" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:windowBackground">#FFF3B0</item>
+        <item name="android:windowBackground">#111111</item>
     </style>
 </resources>
