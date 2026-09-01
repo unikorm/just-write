@@ -30,9 +30,8 @@ Every note app asks something before it lets you write. Pick a notebook. Pick a 
 
 It's a `.txt` file on your device. Not a database, not a proprietary format. Open it in any text editor, copy it to a USB stick, email it to yourself, grep it. If this app disappears tomorrow, your writing doesn't.
 
-## Roadmap
+## Features
 
-
-- [x] Export / share the file
-- [ ] Light + dark following system
+- share after long press of icon as txt file
+- theme by system
 
