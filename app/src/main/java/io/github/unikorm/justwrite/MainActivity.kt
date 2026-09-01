@@ -44,7 +44,7 @@ import java.io.File
 
 class MainActivity : ComponentActivity() {
 
-    private val noteFile: File by lazy { File(filesDir, "note.txt") }
+    private val noteFile: File by lazy { File(filesDir, "just-write.txt") }
 
     @OptIn(FlowPreview::class)
     override fun onCreate(savedInstanceState: Bundle?) {
