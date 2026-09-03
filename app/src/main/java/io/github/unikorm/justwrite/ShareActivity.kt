@@ -4,18 +4,18 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.core.content.FileProvider
-import java.io.File
 
 class ShareActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val noteFile = File(filesDir, "just-write.txt")
+        val prefs = Prefs(this)
+        val noteFile = prefs.noteFile(this)
         if (noteFile.exists()) {
             val uri = FileProvider.getUriForFile(
                 this, "$packageName.fileprovider", noteFile
             )
             val send = Intent(Intent.ACTION_SEND).apply {
-                type = "text/plain"
+                type = prefs.format.mime
                 putExtra(Intent.EXTRA_STREAM, uri)
                 addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             }

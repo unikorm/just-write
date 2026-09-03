@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wedjat / Eye of Horus, stroke-based so it tints cleanly. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- brow -->
+    <path
+        android:pathData="M3,6.5 Q12,1.5 21,6.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- upper lid -->
+    <path
+        android:pathData="M3.5,11.5 Q12,5 20.5,11.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- lower lid -->
+    <path
+        android:pathData="M3.5,11.5 Q12,16.5 20.5,11.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- pupil -->
+    <path
+        android:pathData="M12,8.2 A2.8,2.8 0 1,1 11.99,8.2 Z"
+        android:fillColor="#FFFFFFFF" />
+    <!-- outer corner tail -->
+    <path
+        android:pathData="M20.5,11.5 L23.5,10.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- tear line -->
+    <path
+        android:pathData="M8.5,14.5 L7,22"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- spiral -->
+    <path
+        android:pathData="M14.5,14.5 Q16.5,20 20.5,19.5 Q22.5,19 21.5,17.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>
