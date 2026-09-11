@@ -6,13 +6,13 @@ plugins {
 android {
     namespace = "io.github.unikorm.justwrite"
     compileSdk {
-        version = release(37)
+        version = release(36)
     }
 
     defaultConfig {
         applicationId = "io.github.unikorm.justwrite"
         minSdk = 27
-        targetSdk = 37
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
