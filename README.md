@@ -28,10 +28,10 @@ Every note app asks something before it lets you write. Pick a notebook. Pick a 
 
 ## Your data
 
-It's a `.txt` file on your device. Not a database, not a proprietary format. Open it in any text editor, copy it to a USB stick, email it to yourself, grep it. If this app disappears tomorrow, your writing doesn't.
+It's a `.txt`/`.md` file on your device. Not a database, not a proprietary format. Open it in any text editor, copy it to a USB stick, email it to yourself, share it, grep it. If you uninstall this app tomorrow, your writing disappear too.
 
 ## Features
 
-- share after long press of icon as txt file
+- share after long press of icon as txt/md file
 - theme by system
 
